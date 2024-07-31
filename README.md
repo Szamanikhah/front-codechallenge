@@ -1,52 +1,46 @@
-# Frond End Developer - Code Challenge
+# Getting Started with Create React App
 
-As a front-end developer, you must do a code challenge. You have 3 options:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- Do task 1 (Article Management System).
-- OR do task 2 (Data Table Component).
+## Available Scripts
 
-Depending on your choice and the result we evaluate your expertise and seniority.
+In the project directory, you can run:
 
-## Task 1
+### `npm start`
 
-Develop a dashboard to manage articles with these rules:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-- There is no API. You have to mock the API in a separate layer in the code. So, we can replace it with a real API without touching other parts of your code.
-- The edit page and Delete confirmation dialog need to be included.
-- You must check user mistakes on filling in forms (like email address, required fields, etc.).
-- Protected pages should not be available for guest users.
-- Wysiwyg editor is not required.
-- Tags field is a combobox which you can select some tags or use custom tags.
-- Design them based on your assumption
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-## Task 2
+### `npm test`
 
-Write a data table component with these features:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- Support TypeScript.
-- Support pagination.
-- Support page size.
-- Support simple search (so we can just type a query and filter rows).
-- Support column customization.
-- Support sort fields.
-- Support dark mode.
-- Write some examples to show your component’s features.
+### `npm run build`
 
-## General Requirements
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- Use ReactJS
-- Write necessary tests, but not with high coverage.
-- Remove all unused codes if you use a boilerplate or framework.
-- Write an instruction to run the project.
-- All pages and components should be responsive.
-- Do anything else that can impress us, but don’t overwork.
-- You should use a linter like PrettierJS or any others.
-- Don’t commit the .vscode or .idea directory.
-- Mention the required NodeJS version
-  
-### Deliverables for the Code Challenge
-- Code and Documentation: Include all code and documentation necessary to reproduce the experiments and results.
-  
-### Submission
-- Please submit a GitHub link with your work and fork the repository for collaboration.
-- You have 1 week to send the challenge!
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
